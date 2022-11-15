@@ -33,3 +33,44 @@ nav a{
     align-self:center;
     margin-left: auto;
 }
+
+/*hero-content*/
+
+.hero-content{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', arial;
+    padding: 75px;
+}
+.text-content{
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+    font-family: 'Roboto', arial;
+}
+.text-content p{
+    margin-top:15px 0px ;
+}
+
+h1{
+    color:#f9faf8;
+    font-family: 'Roboto', arial;
+}
+
+button{display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;}
+

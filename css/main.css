@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+/* navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    height: auto;
+    background-color: #1f2937;
+}
+
+.headerLogo{
+    font-family: "Roboto";
+    font-size: 26px;
+    color:#f9faf8;
+    display: flex;
+    align-self: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+.nav-link{
+    display: flex;
+    align-self:center;
+    margin-left: auto;
+}

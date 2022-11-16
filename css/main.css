@@ -76,7 +76,29 @@ button {
   font-weight: bold;
 }
 
-img{
+.img-container img{
   width: 250px;
   margin-left: 150px;
+}
+
+/* random-content */
+
+.random-content{
+  margin-top: 25px;
+}
+
+h2{
+  text-align: center;
+}
+
+ .gallery-img{
+  border: 4px solid #3882F6;
+    border-radius: 15px;
+    width: 200px;
+    height: 250x;
+}
+
+.gallery-img img{
+  width: 100%;
+  height:100%;
 }
